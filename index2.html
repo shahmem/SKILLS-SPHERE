@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>assessement</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index1.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index1.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" id="about">About Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <div class="time-div">
+            <h1>Let's Begin</h1>
+            <p>This Test is designed to test your skills across four distinct categories: Numerical Reasoning, Logical Reasoning,
+                Verbal Ability, and Information Technology (IT). Each section will challenge different aspects of your cognitive
+                abilities, from solving numerical problems to understanding logic patterns, language skills, and IT knowledge.</p>
+            <br> 
+            <p>Get ready to challenge your knowledge! Once you click the  "<b>Start Test</b>" button, you'll have <b>5 minutes</b>  to complete
+                the quiz. The timer will begin ticking, so make sure to answer each question as quickly and accurately as
+                possible. The quiz will automatically stop once the time is up, so pace yourself and do your best. Good luck!
+            </p>
+            <button id="timer-btn">Start Test</button>
+        </div>      
+        <div id="timerInput-div"></div>
+          
+    <div id="qsnts">
+        
+        <div class="question mathematics">
+            <p>1. What is 12 × 12?</p>
+            <label><input type="radio" name="q1" value="a"> A) 124</label><br>
+            <label><input type="radio" name="q1" value="ans"> B) 144</label><br>
+            <label><input type="radio" name="q1" value="c"> C) 156</label><br>
+            <label><input type="radio" name="q1" value="d"> D) 132</label>
+        </div><br>
+    
+        <div class="question it">
+            <p>2. Which of the following is a type of cloud computing service?</p>
+            <label><input type="radio" name="q2" value="a"> A) IaaS (Infrastructure as a Service)</label><br>
+            <label><input type="radio" name="q2" value="b"> B) PaaS (Platform as a Service)</label><br>
+            <label><input type="radio" name="q2" value="c"> C) SaaS (Software as a Service)</label><br>
+            <label><input type="radio" name="q2" value="ans"> D) All of the above</label>
+        </div><br>
+    
+        <div class="question logical">
+            <p>3. Complete the analogy: **Clock is to Time as Thermometer is to...?**</p>
+            <label><input type="radio" name="q3" value="a"> A) Heat</label><br>
+            <label><input type="radio" name="q3" value="ans"> B) Temperature</label><br>
+            <label><input type="radio" name="q3" value="c"> C) Mercury</label><br>
+            <label><input type="radio" name="q3" value="d"> D) Weather</label>
+        </div><br>
+    
+        <div class="question verb">
+            <p>4. Choose the antonym of **"Cautious"**:</p>
+            <label><input type="radio" name="q4" value="ans"> A) Reckless</label><br>
+            <label><input type="radio" name="q4" value="b"> B) Careful</label><br>
+            <label><input type="radio" name="q4" value="c"> C) Hesitant</label><br>
+            <label><input type="radio" name="q4" value="d"> D) Thoughtful</label>
+        </div><br>
+    
+        <div class="question it">
+            <p>5. What is the primary function of a 'router' in a network?</p>
+            <label><input type="radio" name="q5" value="a"> A) To connect different devices on a network</label><br>
+            <label><input type="radio" name="q5" value="ans"> B) To route data packets between networks</label><br>
+            <label><input type="radio" name="q5" value="c"> C) To process web pages</label><br>
+            <label><input type="radio" name="q5" value="d"> D) To monitor internet traffic</label>
+        </div><br>
+    
+        <div class="question logical">
+            <p>6. If in a code language, **RAIN** is written as **SBOJ**, how is **CLOUD** written?</p>
+            <label><input type="radio" name="q6" value="a"> A) DMNVE</label><br>
+            <label><input type="radio" name="q6" value="b"> B) BKNTE</label><br>
+            <label><input type="radio" name="q6" value="ans"> C) DMPVE</label><br>
+            <label><input type="radio" name="q6" value="d"> D) DNOVF</label>
+        </div><br>
+    
+        <div class="question verb">
+            <p>7. Choose the synonym of **"Obscure"**:</p>
+            <label><input type="radio" name="q7" value="a"> A) Clear</label><br>
+            <label><input type="radio" name="q7" value="ans"> B) Vague</label><br>
+            <label><input type="radio" name="q7" value="c"> C) Bright</label><br>
+            <label><input type="radio" name="q7" value="d"> D) Transparent</label>
+        </div><br>
+    
+        <div class="question mathematics">
+            <p>8.What is the square root of 961?</p>
+            <label><input type="radio" name="q8" value="a"> A) 29</label><br>
+            <label><input type="radio" name="q8" value="b"> B) 30</label><br>
+            <label><input type="radio" name="q8" value="ans"> C) 31</label><br>
+            <label><input type="radio" name="q8" value="d"> D) 32</label>
+        </div><br>
+    
+        <div class="question it">
+            <p>9. What is the purpose of 'SSL' (Secure Socket Layer) in web security?</p>
+            <label><input type="radio" name="q9" value="ans"> A) Encrypt data between the server and client</label><br>
+            <label><input type="radio" name="q9" value="b"> B) Authenticate server identity</label><br>
+            <label><input type="radio" name="q9" value="c"> C) Monitor network traffic</label><br>
+            <label><input type="radio" name="q9" value="d"> D) Block unauthorized access</label>
+        </div><br>
+    
+        <div class="question logical">
+            <p>10. If **1st January 2000** was a Saturday, what day of the week was 1st January 2010?</p>
+            <label><input type="radio" name="q10" value="ans"> A) Friday</label><br>
+            <label><input type="radio" name="q10" value="b"> B) Saturday</label><br>
+            <label><input type="radio" name="q10" value="c"> C) Sunday</label><br>
+            <label><input type="radio" name="q10" value="d"> D) Monday</label>
+        </div><br>
+    
+        <div class="question it">
+            <p>11. In networking, what does the term 'IP address' stand for?</p>
+            <label><input type="radio" name="q11" value="ans"> A) Internet Protocol address</label><br>
+            <label><input type="radio" name="q11" value="b"> B) Internal Protocol address</label><br>
+            <label><input type="radio" name="q11" value="c"> C) Integrated Protocol address</label><br>
+            <label><input type="radio" name="q11" value="d"> D) Internet Port address</label>
+        </div><br>
+    
+        <div class="question verb">
+            <p>12. Fill in the blank: "She is very __________ in her arguments and never gives up." </p>
+            <label><input type="radio" name="q12" value="a"> A) Valiant</label><br>
+            <label><input type="radio" name="q12" value="b"> B) Timid</label><br>
+            <label><input type="radio" name="q12" value="ans"> C) Persistent</label><br>
+            <label><input type="radio" name="q12" value="d"> D) Irresolute</label>
+        </div><br>
+    
+        <div class="question it">
+            <p>13. In the context of databases, what does 'SQL' stand for?</p>
+            <label><input type="radio" name="q13" value="a"> A) Simple Query Language</label><br>
+            <label><input type="radio" name="q13" value="b"> B) Standard Query Language</label><br>
+            <label><input type="radio" name="q13" value="ans"> C) Structured Query Language</label><br>
+            <label><input type="radio" name="q13" value="d"> D) Server Query Language</label>
+        </div><br>
+    
+        <div class="question mathematics">
+            <p>14.What is the sum of all prime numbers between 10 and 20?</p>
+            <label><input type="radio" name="q14" value="a"> A) 83</label><br>
+            <label><input type="radio" name="q14" value="b"> B) 72</label><br>
+            <label><input type="radio" name="q14" value="ans"> C) 60</label><br>
+            <label><input type="radio" name="q14" value="d"> D) 43</label>
+        </div><br>
+    
+        <div class="question it">
+            <p>15. Which of the following programming languages is used for web development on the front end?</p>
+            <label><input type="radio" name="q15" value="ans"> A) JavaScript</label><br>
+            <label><input type="radio" name="q15" value="b"> B) Java</label><br>
+            <label><input type="radio" name="q15" value="c"> C) C++</label><br>
+            <label><input type="radio" name="q15" value="d"> D) Python</label>
+        </div><br>
+    
+        <div class="question verb">
+            <p>16. Choose the word that best fits the context: "The manager gave a(n) __________ speech to motivate the
+                team." </p>
+            <label><input type="radio" name="q16" value="a"> A) Dull</label><br>
+            <label><input type="radio" name="q16" value="b"> B) Inspirational</label><br>
+            <label><input type="radio" name="q16" value="ans"> C) Monotonous</label><br>
+            <label><input type="radio" name="q16" value="d"> D) Depressing</label>
+        </div><br>
+    
+        <div class="question mathematics">
+            <p>17.A rectangular field has a length of 20 meters and a width of 15 meters. What is the length of the diagonal?
+            </p>
+            <label><input type="radio" name="q17" value="ans"> A) 25 m</label><br>
+            <label><input type="radio" name="q17" value="b"> B) 26 m</label><br>
+            <label><input type="radio" name="q17" value="c"> C) 24 m</label><br>
+            <label><input type="radio" name="q17" value="d"> D) 27 m</label>
+        </div><br>
+    
+        <div class="question mathematics">
+            <p>18.Find the next term in the sequence: 2,4,8,16,32,....</p>
+            <label><input type="radio" name="q18" value="a"> A) 48</label><br>
+            <label><input type="radio" name="q18" value="ans"> B) 64</label><br>
+            <label><input type="radio" name="q18" value="c"> C) 128</label><br>
+            <label><input type="radio" name="q18" value="d"> D) 256</label>
+        </div><br>
+    
+        
+    
+        <div class="question logical">
+            <p>19. Pointing to a photograph, Amit said, “She is the daughter of my grandfather’s only son.” How is the girl
+                in the photograph related to Amit?</p>
+            <label><input type="radio" name="q19" value="ans"> A) Sister</label><br>
+            <label><input type="radio" name="q19" value="b"> B) Cousin</label><br>
+            <label><input type="radio" name="q19" value="c"> C) Mother</label><br>
+            <label><input type="radio" name="q19" value="d"> D) Aunt</label>
+        </div><br>
+    
+        <div class="question verb">
+            <p>20. Choose the correct sentence: </p>
+            <label><input type="radio" name="q20" value="a"> A) He will go to the store if he has finished his
+                work.</label><br>
+            <label><input type="radio" name="q20" value="b"> B) He will go to the store if he finished his
+                work.</label><br>
+            <label><input type="radio" name="q20" value="ans"> C) He will go to the store if he finishes his
+                work.</label><br>
+            <label><input type="radio" name="q20" value="d"> D) He will go to the store if he will finish his
+                work.</label>
+        </div><br>
+    
+        <div class="question logical">
+            <p>21. A is the father of B, but B is not the son of A. How is that possible?</p>
+            <label><input type="radio" name="q21" value="a"> A) B is A’s brother</label><br>
+            <label><input type="radio" name="q21" value="ans"> B) B is A’s daughter</label><br>
+            <label><input type="radio" name="q21" value="c"> C) B is A’s nephew</label><br>
+            <label><input type="radio" name="q21" value="d"> D) None of the above</label>
+        </div><br>
+    
+        <div class="question it">
+            <p>22. What does HTTP stand for in web technologies?</p>
+            <label><input type="radio" name="q22" value="a"> A) HyperText Transmission Protocol</label><br>
+            <label><input type="radio" name="q22" value="ans"> B) HyperText Transfer Protocol</label><br>
+            <label><input type="radio" name="q22" value="c"> C) HyperTool Text Protocol</label><br>
+            <label><input type="radio" name="q22" value="d"> D) None of the above</label>
+        </div><br>
+    
+        <div class="question mathematics">
+            <p>23.If a train travels 60 km in 1 hour, how far will it travel in 3 hours 45 minutes at the same speed?</p>
+            <label><input type="radio" name="q23" value="ans"> A) 225 Km</label><br>
+            <label><input type="radio" name="q23" value="b"> B) 210 Km</label><br>
+            <label><input type="radio" name="q23" value="c"> C) 230 Km</label><br>
+            <label><input type="radio" name="q23" value="d"> D) 240 Km</label>
+        </div><br>
+    
+        <div class="question logical">
+            <p>24. A man starts walking north and turns left, then again turns left. He walks 1 km each time. How far is he
+                from his starting point?</p>
+            <label><input type="radio" name="q24" value="ans"> A) 1 km</label><br>
+            <label><input type="radio" name="q24" value="b"> B) 2 km</label><br>
+            <label><input type="radio" name="q24" value="c"> C) 0 km</label><br>
+            <label><input type="radio" name="q24" value="d"> D) 3 km</label>
+        </div><br>
+        <div class="question logical">
+            <p>25. A clock shows 3:15. What is the angle between the hour hand and the minute hand?</p>
+            <label><input type="radio" name="q25" value="a"> A) 0°</label><br>
+            <label><input type="radio" name="q25" value="b"> B) 7.5°</label><br>
+            <label><input type="radio" name="q25" value="c"> C) 90°</label><br>
+            <label><input type="radio" name="q25" value="ans"> D) 97.5°</label>
+        </div><br>
+        <div class="question logical">
+            <p>26. A man starts from point A, walks 5 km east, then 3 km north, and finally 2 km west. How far is he from the starting point?</p>
+            <label><input type="radio" name="q26" value="ans"> A) 4 km</label><br>
+            <label><input type="radio" name="q26" value="b"> B) 5 km</label><br>
+            <label><input type="radio" name="q26" value="c"> C) 6 km</label><br>
+            <label><input type="radio" name="q26" value="d"> D) 3 km</label>
+        </div><br>
+    </div>
+       
+    
+     <div id="btn-div">
+        <button onclick="calculateScore()" id="update-percentage">Submit Answers</button>
+     </div>
+       
+    
+        <div class="percentage-circle-container" id="percentage-circle-container"></div>
+        <div id="result"></div>
+        
+
+        <div id="main-div1" class="para" style="display: none;">
+            <h2>What does Number Reasoning </h2>
+            <p>These tests typically present data in various formats, such as graphs, tables, charts, or simple text. Questions are based on the data provided and often involve basic arithmetic, percentages, ratios, or statistical interpretation. <br><br>
+                The main goal is to assess a candidate’s numerical analytical skills and their ability to interpret, analyze, and draw conclusions from sets of data.
+                Numerical reasoning tests evaluate arithmetic skills, data interpretation, logical analysis, and the ability to work under time constraints. They measure how well a person can understand and use numerical or statistical data.</p>
+        </div>
+        <div id="main-div2" class="para"  style="display: none;">
+            <h2>What does Verbal Skills </h2>
+            <p>A verbal skills test is a specialized assessment tool used by employers to evaluate a job applicant’s proficiency in language and communication. These tests are designed to measure various aspects of verbal skills, including grammar, vocabulary, spelling, and comprehension. They are essential in determining a candidate’s ability to understand and convey information effectively, which is crucial in many job roles.</p>
+        </div>
+        <div id="main-div3" class="para"  style="display: none;">
+            <h2>What does Information Technology </h2>
+            <p>In an assessment test, Information Technology (IT) skills typically refer to the knowledge and abilities required to effectively use, manage, and understand various computer systems, software applications, and technologies. IT skills are essential in many fields, and their scope can range from basic computer literacy to advanced technical knowledge in areas like networking, programming, and cybersecurity.
+                <br><br>IT skills in an assessment test evaluate a candidate's ability to navigate and apply technological knowledge, tools, and processes, which are fundamental in many professional environments today.</p>
+        </div>
+        <div id="main-div4" class="para"  style="display: none;">
+            <h2>What does Logical Reasoning </h2>
+            <p>A Logical Reasoning test is a type of assessment that employers use to evaluate your thinking skills. It’s all about how you process information, solve problems, and make decisions. Unlike tests that focus on specific job skills, this one looks at general mental abilities like memory, reasoning, attention to detail, and your ability to understand and manipulate different types of information. <br><br>
+
+                Logical Reasoning tests vary in their structure, but they commonly include 20 to 50 multiple-choice questions. These questions are designed to assess key aspects of cognitive ability and need to be answered within a strict time frame.</p>
+        </div>
+
+            <footer id="footer">
+                <div class="footer-container">
+                  <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p class="abt">We are a platform dedicated to providing insightful aptitude tests and resources for personal and professional growth.</p>
+                  </div>
+                  <div class="footer-column">
+                    <h3>FAQ</h3>
+                    <p><a href="#">What is an aptitude test?</a></p>
+                    <p><a href="#">How do I prepare for the tests?</a></p>
+                    <p><a href="#">Is this service free?</a></p>
+                  </div>
+                  <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+                    <p>Address: 123 Main Street, Your City</p>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  &copy; 2024 Your Website Name. All rights reserved.
+                </div>
+              </footer>
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+    
+    </html>
